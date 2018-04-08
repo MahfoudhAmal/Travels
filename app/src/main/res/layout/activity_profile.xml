@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ramzi.test.ProfileActivity">
+
+    <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:background="@drawable/bg_screen"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:text="LogOut" />
+
+        <TextView
+            android:id="@+id/dest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="130dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_trans"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:gravity="center"
+            android:hint="Destination"
+            android:textColorHint="@android:color/background_light" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/heber"
+                android:layout_width="wrap_content"
+                android:layout_height="74dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_trans"
+                android:drawableTop="@drawable/ic_hotel_black_24dp"
+                android:text="lodging"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_trans"
+                android:drawableTop="@drawable/ic_restaurant_black_24dp"
+                android:text="Restaurant"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/vol"
+                android:layout_width="wrap_content"
+                android:layout_height="74dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_trans"
+                android:drawableTop="@drawable/ic_flight_black_24dp"
+                android:text="Flight"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/act"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_trans"
+                android:drawableTop="@drawable/ic_favorite_black_24dp"
+                android:text="Activities"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="0.07"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:drawableTop="@drawable/ic_home_black_24dp"
+                android:text="Home"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/trips"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:drawableTop="@drawable/ic_card_travel_black_24dp"
+                android:text="My Trips"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/alert"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:drawableTop="@drawable/ic_notifications_none_black_24dp"
+                android:text="Alert"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/me"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:drawableTop="@drawable/ic_person_outline_black_24dp"
+                android:text="Me"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

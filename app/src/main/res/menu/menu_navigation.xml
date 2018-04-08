@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item android:id="@+id/voyage"
+        android:title="My Trips"
+        android:icon="@drawable/ic_card_travel_black_24dp"/>
+    <item android:id="@+id/alert"
+        android:title="Alerts"
+        android:icon="@drawable/ic_notifications_none_black_24dp"/>
+    <item android:id="@+id/favoris"
+        android:title="Me"
+        android:icon="@drawable/ic_person_outline_black_24dp"/>
+</menu>
